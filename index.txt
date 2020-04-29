@@ -1,0 +1,5 @@
+1) git --version
+2) git status - To know the status of any git repository. If not a repository, then throw error.
+3) git init - Initialize this repository as my git repository
+4) Three Layer Architecture : Working Directory --> Staging --> Local Git Repository.
+5) 
