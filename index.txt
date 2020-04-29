@@ -7,4 +7,7 @@
 7) git config --global user.name "Ankit Kr. Sah" - Configure your User name for all repositories from this PC.
 8) git commit -m "Name_of_commited_Method" - Commit changes to local repository (Last stage).
 9) git log - Get all changes logged so far by diffeent users. 
-10)  
+# Push Your changes to Github
+10) Open New repository by the name "Github-Tutorials"
+11) git remote add origin git@github.com:anik9000/Github-Tutorials.git - Add your local repository to the mentioned website
+12) git push -u origin master - Push local repository to Github. 
