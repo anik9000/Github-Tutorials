@@ -17,4 +17,5 @@
 13) git pull origin master - Pull Your github repository to the local repository.
 14) git diff index.txt - Find changes done in the present commit in the file index.txt.  
 15) git diff --staged index.txt - Find changes in the present commit when working in the staging area for file index.txt.
-16)
+16) git reset index.txt - Move index.txt from staging area to working directory. 
+17) git checkout index.txt - Remove all the changes being done in this commit.
