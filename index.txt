@@ -2,7 +2,7 @@
 2) git status - To know the status of any Git repository. If not a repository, then throw error.
 3) git init - Initialize this repository as my Git repository(First Stage).
 4) Three Layer Architecture : Working Directory --> Staging --> Local Git Repository.
-5) git add . - Throw all the files in the repository from working directory to staging area (Second Stage).
+5) git add -A - Throw all the files in the repository from working directory to staging area (Second Stage).
 6) git config --global user.email "ankitsah06539@gmail.com" - Configure your EmailId for all repositories from this PC.
 7) git config --global user.name "Ankit Kr. Sah" - Configure your User name for all repositories from this PC.
 8) git commit -m "Name_of_commited_Message" - Commit changes to local repository (Last stage).
@@ -19,3 +19,5 @@
 15) git diff --staged index.txt - Find changes in the present commit when working in the staging area for file index.txt.
 16) git reset index.txt - Move index.txt from staging area to working directory. 
 17) git checkout index.txt - Remove all the changes being done in this commit.
+18) git clone "ssh path" . - Cloning into local repository.
+19) touch gitignore - Create a gitignore file. Open with any editor and write the name of files to be ignored in tracking.
